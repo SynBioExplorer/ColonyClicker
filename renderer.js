@@ -32,7 +32,7 @@ canvas.addEventListener('pointerdown', handleAnnotation);
 function handleAnnotation(event) {
     event.preventDefault(); // Prevents the default action to ensure consistent behavior
     if (images.length === 0 || currentIndex === -1) return; // Do nothing if no images are loaded or index is not set
-    
+
     const rect = canvas.getBoundingClientRect();
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
@@ -43,6 +43,13 @@ function handleAnnotation(event) {
     annotations[currentIndex].push({x, y});
 
     redrawCanvas();
+    updateCountDisplay(); // Update the counter display
+}
+function updateCountDisplay() {
+    // Assuming 'countDisplay' is the ID of the element showing the count
+    const countDisplay = document.getElementById('countDisplay');
+    const currentCount = annotations[currentIndex] ? annotations[currentIndex].length : 0;
+    countDisplay.innerText = 'Count: ' + currentCount;
 }
 
 prevBtn.addEventListener('click', function() {

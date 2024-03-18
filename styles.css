@@ -4,6 +4,26 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+body {
+    background-image: url('background.jpg');
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+}
+button {
+    padding: 10px 15px; /* Adds padding inside the buttons */
+    font-size: 14px; /* Increases the font size for better readability */
+    color: #FFFFFF; /* Sets the text color to white */
+    background-color: #4976a7; /* A pleasant shade of blue as the background */
+    border: grey; /* Removes the default border */
+    border-radius: 5px; /* Rounds the corners of the buttons */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+    transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* A darker shade of blue for the hover state */
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -11,8 +31,8 @@ body, html {
 }
 
 header {
-    padding: 20px;
-    background-color: #007BFF;
+    padding: 15px;
+    background-color: black;
     color: white;
     text-align: center;
 }
@@ -26,9 +46,15 @@ main {
     padding: 20px;
 }
 
+#canvas-container {
+    display: flex;
+    justify-content: space-between; /* Spread out the Previous and Next buttons to the far sides */
+    align-items: center; /* Center align the items vertically */
+    flex-direction: row; /* This is the default, but included for clarity */
+}
+
 canvas {
-    border: 2px solid #007BFF;
-    margin: 20px 0;
+    margin: 0 20px; /* Add margin to ensure space between the buttons and the canvas */
 }
 
 #saveBtn {

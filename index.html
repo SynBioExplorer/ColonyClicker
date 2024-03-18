@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Colonyclicker</title>
+    <title>ColonyClicker</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Colonyclicker</h1>
+            <h1>ColonyClicker</h1>
         </header>
         <main>
             <input type="file" id="imageUpload" accept="image/*" multiple />
-            <div id="imageInfo">0/0 pictures</div> <!-- Ensure this is included -->
-            <button id="prevBtn">Previous</button> <!-- Ensure this is included -->
-            <button id="nextBtn">Next</button>
-            <canvas id="canvas"></canvas>
+            <div id="imageInfo">0/0 pictures</div>
+            <div id="canvas-container">
+                <button id="prevBtn">Previous</button>
+                <canvas id="canvas"></canvas>
+                <button id="nextBtn">Next</button>
+            </div>
             <p id="countDisplay">Count: 0</p>
             <button id="endSessionBtn">End Session & Save All</button>
         </main>
