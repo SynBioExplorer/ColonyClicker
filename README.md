@@ -15,8 +15,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/) (version X or higher)
-- [Electron](https://www.electronjs.org/) (version Y or higher)
+- [Node.js](https://nodejs.org/en/) 
+- [Electron](https://www.electronjs.org/) 
 
 ### Installation
 
@@ -54,9 +54,3 @@ npm start
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-Your Name - email@example.com
-
-Project Link: [https://github.com/SynBioExplorer/ColonyClicker](https://github.com/SynBioExplorer/ColonyClicker)
-# ColonyClicker
