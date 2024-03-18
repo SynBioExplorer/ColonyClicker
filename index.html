@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colonyclicker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Colonyclicker</h1>
+        </header>
+        <main>
+            <input type="file" id="imageUpload" accept="image/*" multiple />
+            <div id="imageInfo">0/0 pictures</div> <!-- Ensure this is included -->
+            <button id="prevBtn">Previous</button> <!-- Ensure this is included -->
+            <button id="nextBtn">Next</button>
+            <canvas id="canvas"></canvas>
+            <p id="countDisplay">Count: 0</p>
+            <button id="endSessionBtn">End Session & Save All</button>
+        </main>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

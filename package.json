@@ -1,0 +1,14 @@
+{
+  "name": "colonyclicker",
+  "version": "1.0.0",
+  "description": "program to count CFU manually from pictures",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Felix Meier",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.1"
+  }
+}
