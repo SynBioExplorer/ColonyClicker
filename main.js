@@ -12,12 +12,18 @@ function createWindow() {
             nodeIntegration: false,
             contextIsolation: true,
             preload: path.join(__dirname, 'preload.js')
-        }
+        },
+        // Use different icons based on platform
+        icon: process.platform === 'darwin' ? path.join(__dirname, 'icon.icns') : path.join(__dirname, 'icon.ico')
     });
 
     mainWindow.loadFile('index.html');
-    mainWindow.webContents.openDevTools();
+
+    if (process.env.NODE_ENV === 'development') {
+        mainWindow.webContents.openDevTools();
+    }
 }
+
 
 app.whenReady().then(createWindow);
 

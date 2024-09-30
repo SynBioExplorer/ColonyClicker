@@ -1,14 +1,29 @@
 {
   "name": "colonyclicker",
   "version": "1.0.0",
-  "description": "program to count CFU manually from pictures",
+  "description": "Program to count CFU manually from pictures",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "author": "Felix Meier",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^29.1.1"
+    "electron": "^29.1.1",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.colonyclicker.app",
+    "productName": "ColonyClicker",
+    "mac": {
+      "icon": "icon.icns"
+    },
+    "win": {
+      "icon": "icon.ico"
+    },
+    "linux": {
+      "icon": "assets"
+    }
   }
 }
