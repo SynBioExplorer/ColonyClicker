@@ -33,8 +33,10 @@ Download the latest Linux installer for x64 systems [ColonyClicker_linux_x64.App
 
 #### ARM64
 Download the latest Linux installer for ARM64 systems [ColonyClicker_linux_arm64.AppImage](https://github.com/SynBioExplorer/ColonyClicker/releases/download/v1.0.0/ColonyClicker_linux_arm64.AppImage).
+
 To run the AppImage, make it executable:
-chmod +x ColonyClicker_linux_x64.AppImage # Or the ARM64 version ./ColonyClicker_linux_arm64.AppImage
+chmod +x ColonyClicker_linux_x64.AppImage # 
+Or the ARM64 version ./ColonyClicker_linux_arm64.AppImage
 
 
 ## How to Use
