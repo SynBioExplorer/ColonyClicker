@@ -17,6 +17,9 @@ Download the latest Windows installer [ColonyClicker.exe](https://github.com/Syn
 ### macOS (ARM64)
 Download the latest macOS installer for Apple Silicon (ARM64) [ColonyClicker_arm64.dmg](https://github.com/SynBioExplorer/ColonyClicker/releases/download/v1.0.0/ColonyClicker_arm64.dmg).
 
+Open the .dmg file and move it to your applications folder. Open the terminal (command + space, type in terminal, enter) type: 
+ xattr -c /Applications/colonyclicker.app (or the location of your program if you put it somewhere else).
+
 ## How to Use
 
 1. Open the application.
@@ -24,6 +27,7 @@ Download the latest macOS installer for Apple Silicon (ARM64) [ColonyClicker_arm
 3. Annotate each image by clicking on colonies to count them.
 4. Navigate between images using the "Next" and "Previous" buttons.
 5. Once finished, click "End Session & Save All" to save the annotated images.
+The annotated images will get saved with annotations and the CFU count in the title, e.g. picture_24CFU.png
 
 ## License
 
