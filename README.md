@@ -36,11 +36,11 @@ Download the latest Linux installer for ARM64 systems [ColonyClicker_linux_arm64
 
 To run the AppImage, make it executable:
 ```bash
-chmod +x ColonyClicker_linux_x64.AppImage
+chmod +x ./ColonyClicker_linux_x64.AppImage
 ```
-Or
+Or the ARM64 version 
 ```bash
-the ARM64 version ./ColonyClicker_linux_arm64.AppImage
+chmod +x ./ColonyClicker_linux_arm64.AppImage
 ```
 
 ## How to Use
