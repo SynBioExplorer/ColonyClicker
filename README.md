@@ -22,9 +22,9 @@ Download the latest macOS installer for Intel-based Macs [ColonyClicker_mac_x64.
 Download the latest macOS installer for Apple Silicon (ARM64) [ColonyClicker_mac_arm64.dmg](https://github.com/SynBioExplorer/ColonyClicker/releases/download/v1.0.0/ColonyClicker_mac_arm64.dmg).
 
 Once downloaded, open the `.dmg` file and move the app to your Applications folder. Then, run the following command in the Terminal (you can open Terminal by pressing Command + Space and typing "Terminal") to bypass macOS security checks:
-
+```bash
 xattr -c /Applications/colonyclicker.app
-
+```
 (or the location of your program if you put it somewhere else).
 
 ### Linux
@@ -35,9 +35,10 @@ Download the latest Linux installer for x64 systems [ColonyClicker_linux_x64.App
 Download the latest Linux installer for ARM64 systems [ColonyClicker_linux_arm64.AppImage](https://github.com/SynBioExplorer/ColonyClicker/releases/download/v1.0.0/ColonyClicker_linux_arm64.AppImage).
 
 To run the AppImage, make it executable:
-chmod +x ColonyClicker_linux_x64.AppImage # 
+```bash
+chmod +x ColonyClicker_linux_x64.AppImage 
 Or the ARM64 version ./ColonyClicker_linux_arm64.AppImage
-
+```
 
 ## How to Use
 
