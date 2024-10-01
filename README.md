@@ -18,7 +18,8 @@ Download the latest Windows installer [ColonyClicker.exe](https://github.com/Syn
 Download the latest macOS installer for Apple Silicon (ARM64) [ColonyClicker_arm64.dmg](https://github.com/SynBioExplorer/ColonyClicker/releases/download/v1.0.0/ColonyClicker_arm64.dmg).
 
 Open the .dmg file and move it to your applications folder. Open the terminal (command + space, type in terminal, enter) type: 
- xattr -c /Applications/colonyclicker.app (or the location of your program if you put it somewhere else).
+xattr -c /Applications/colonyclicker.app 
+(or the location of your program if you put it somewhere else).
 
 ## How to Use
 
